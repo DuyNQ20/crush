@@ -9,6 +9,8 @@
     <title>Document</title>
   </head>
   <body onload="loadSound()">
+    <audio id="myAudio1" autoplay src="./loading.mp3"></audio>
+
     <div class="loading">
       <div class="boxHeartImg">
         <div class="heartItem item1">
@@ -42,11 +44,4 @@
       </div>
     </div>
   </body>
-  <script>
-    function loadSound() {
-      var audio = new Audio('./haha.mp3')
-      audio.play()
-    }
-    loadSound()
-  </script>
 </html>
