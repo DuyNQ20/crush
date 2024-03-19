@@ -292,7 +292,7 @@ body {
   }
   50%,
   100% {
-    transform: translateX(calc((100vw - 350px)));
+    transform: translateX(calc(min(100vw, 1000px) - 350px));
   }
 }
 .boxHeart {
