@@ -591,6 +591,7 @@ body {
 .boxLetter .formLetter {
   position: relative;
   width: 100%;
+  max-width: 500px;
   height: 350px;
   background-color: #ffebeb;
   border-radius: 20px;
